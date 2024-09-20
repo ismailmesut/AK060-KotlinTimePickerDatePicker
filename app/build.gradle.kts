@@ -7,6 +7,10 @@ android {
     namespace = "com.ismailmesutmujde.kotlintimepickerdatepicker"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.ismailmesutmujde.kotlintimepickerdatepicker"
         minSdk = 24
